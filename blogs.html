@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurBlogs</title>
+    <!--font-awesome-->
+    <script src="https://kit.fontawesome.com/4d71869e47.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="blogs.css">
+    <!--google-font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="pictures/logos/c 1.png" alt="ITCommunity Logo">
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu 'id="menu-icon"></i>
+            <i class='bx bx-x'id="close-icon"></i>
+
+        </label>
+        <nav>
+            <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="joinUs.html">JOIN US </a></li>
+                    <li><a href="ourteams.html">TEAMS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="activities.html">ACTIVITIES</a></li>
+                    <li><a href="blogs.html"  class="active">BLOGS</a></li>
+                    <li><a href="contactUs.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <div class="intro-header">
+                    <h1>OUR BLOGS</h1>
+                    <img src="/pictures/3D pics/9bc54a3d4a1f98bed5dfcccbb76ef2da.png" alt="Event Image">
+                </div><br>
+                <div class="intro-text">
+                    <p>Welcome to ITCommunity Blog, where creativity knows no bounds</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="blogs">
+              
+            
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" placeholder="Search Blog" class="search-input" onkeyup="search()">
+                    <button class="search-btn">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                          <path fill="none" d="M0 0h24v24H0z"/>
+                          <path d="M11 2a9 9 0 106.32 15.05l4.61 4.62 1.41-1.41-4.62-4.61A9 9 0 0011 2zm0 2a7 7 0 110 14 7 7 0 010-14z"/>
+                       </svg>
+                    </button>
+                </div>
+
+                <div class="blog-grid">
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 1.png" alt="Big Data">
+                        <div class="blog-title">Big Data</div>
+                    </div> 
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="kaouther">
+                        <span>kaouther</span>
+                    </div>
+                </div>
+            
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 2.png" alt="Graphic Design">
+                        <div class="blog-title">Graphic Design</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-56.jpg" alt="ahmed">
+                        <span>ahmed</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 3.png" alt="">
+                        <div class="blog-title"></div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>kaouther</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 8.png" alt="Mobile dev">
+                        <div class="blog-title">Mobile dev</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>Salma</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 7.png" alt="Building robots">
+                        <div class="blog-title">Building robots</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>kaouther</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 6.png" alt="Cyber security">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-56.jpg" alt="ahmed">
+                        <span>ahmed</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 9.png" alt="Ai">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-56.jpg" alt="ahmed">
+                        <span>ahmed</span>
+                    </div>
+                </div>
+                <div class="dice">
+                    <a href="quiz.html"><img src="/pictures/logos/dice.png"></a>
+                </div>
+                <div class="blog-item">
+                  
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 11.png" alt="encryption">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>Salma</span>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/image 10.png" alt="Ui Ux">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>kaouther</span>
+                    </div>
+                </div>
+
+                    <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/WebDevelopmentProgrammingBlogs_banner 1.png" alt="Web dev">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>Salma</span>
+                    </div>
+                    </div>
+
+                    <div class="blog-item">
+                    <div class="blog-pic">
+                        <img src="/pictures/blog pic/Blog_logo_Header 1.png" alt="Graphic Design">
+                        <div class="blog-title">Big Data</div>
+                    </div>
+                    <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>kaouther</span>
+                    </div>
+                    </div>
+
+                    <div class="blog-item">
+                        <div class="blog-pic">
+                        <img src="/pictures/blog pic/featured_blog_cover_10_e4bc1bf1eb 1.png" alt="Video editing">
+                        <div class="blog-title">Big Data</div>
+                        </div>
+                        <div class="author">
+                        <img class="author-avatar" src="/pictures/3D pics/photo_2024-10-04_12-39-51.jpg" alt="ahmed">
+                        <span>Salma</span>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div id="button-blog">
+                    <button class="load-more">Load more</button>
+                </div>
+
+                
+            </div>
+        </section><br>
+</main>
+
+
+
+
+     <!--footer start-->
+<footer>
+    <div class="footer-top">
+        <div class="contact-us">
+            <div class="footer-logo">
+                <img src="/pictures/logos/itc logo asss 1.png" alt="ITCommunity Logo">
+            </div>
+
+                <h3>Contact Info</h3>
+                <p id="email">itcommunity@gmail.com</p>
+                <p id="location">Blida, Algeria</p>
+
+              <div class="icons">
+                <a href="https://web.facebook.com/ITCBlida" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/it_community/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+                
+            
+        </div>
+        
+
+    <div class="about-us">
+        <h3 >About Us</h3>
+        <p><a href="activities.html">Our Activities</a></p>
+        <p><a href="ourteams.html">Our Teams</a></p>
+        <p><a href="events.html">Our Events </a> </p>
+    </div>
+
+        
+       
+        <div class="join-us">
+            <p>Share Your Knowledge And Learn New 
+            Things With Us</p>
+           <a href="joinUs.html"><button id="button">JOIN US</button></a> 
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; All rights reserved - ITCommunity</p>
+    </div>
+</footer>
+
+<!--footer end-->
+ 
+<script>
+    const checkBox = document.getElementById('check');
+    const body = document.body;
+
+    checkBox.addEventListener('change', function() {
+        if (this.checked) {
+            body.classList.add('no-scroll'); // Disable scroll
+        } else {
+            body.classList.remove('no-scroll'); // Enable scroll when menu is closed
+        }
+    });
+</script>
+
+<script>
+
+    let loadMoreBtn = document.querySelector('#button-blog');
+    let currentItem= 4;
+
+    loadMoreBtn.onclick =() =>{
+        let boxes = [...document.querySelectorAll('.blogs .container .blog-grid .blog-item')];
+        for(var i = currentItem;i< currentItem+4; i++){
+            boxes[i].style.display = 'inline-block';
+        }
+        currentItem += 4;
+        if(currentItem>= boxes.length){
+            loadMoreBtn.style.display= 'none';
+        }
+    }
+</script>
+    
+<script src="/main.js"></script>
+</body>
+</html>
